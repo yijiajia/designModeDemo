@@ -29,15 +29,26 @@ public class DemoCglibInterceptor implements MethodInterceptor {
     }
 
 
-
+    /**
+     * 拦截的实现
+     * @param o cglib 生成的代理类实例
+     * @param method 目标对象所调用的方法引用
+     * @param args 参数列表
+     * @param methodProxy   生成的代理类对方法的代理引用
+     * @return 方法返回值
+     * @throws Throwable
+     */
     @Override
-    public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+    public Object intercept(Object o, Method method, Object[] args, MethodProxy methodProxy) throws Throwable {
         System.out.println("代理对象方法执行。");
         long startTime = System.currentTimeMillis();
         // 执行目标对象
-        Object obj = method.invoke(target);
+        Object obj = method.invoke(target,args);
+        // 也可以使用代理对象调用，因为生成的是子类代理，所以要执行父类的方法
+        // obj = methodProxy.invokeSuper(target,args);
         // 记录耗时
         long endTime = System.currentTimeMillis();
+        System.out.println("方法返回值：obj="+obj);
         System.out.println("方法执行结束。耗时：" + (endTime - startTime) + "ms");
         return obj;
     }
