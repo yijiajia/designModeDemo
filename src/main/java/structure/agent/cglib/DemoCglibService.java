@@ -1,14 +1,14 @@
-package agent;
+package structure.agent.cglib;
 
-public class DemoServiceImpl implements DemoService{
+public class DemoCglibService {
 
-    @Override
-    public void run() {
+    public String run() {
         System.out.println("执行目标对象的方法。");
         try {
             Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        return "success";
     }
 }

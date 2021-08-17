@@ -1,4 +1,4 @@
-package agent.dynamic;
+package structure.agent.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

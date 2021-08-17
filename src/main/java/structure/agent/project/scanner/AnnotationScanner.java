@@ -1,10 +1,10 @@
-package agent.project.scanner;
+package structure.agent.project.scanner;
 
-import agent.project.anno.Order;
-import agent.project.anno.ToolAspect;
-import agent.project.interceptor.AbstractInterceptor;
-import agent.project.ToolProxyCallback;
-import agent.project.utils.ClassUtil;
+import structure.agent.project.anno.Order;
+import structure.agent.project.anno.ToolAspect;
+import structure.agent.project.interceptor.AbstractInterceptor;
+import structure.agent.project.ToolProxyCallback;
+import structure.agent.project.utils.ClassUtil;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class AnnotationScanner {
 
-    private static final String packageName = "agent.project";
+    private static final String packageName = "structure.agent.project";
 
     /**
      * 自动注册工具拦截器

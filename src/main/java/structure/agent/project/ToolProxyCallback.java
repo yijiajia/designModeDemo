@@ -1,6 +1,6 @@
-package agent.project;
+package structure.agent.project;
 
-import agent.project.interceptor.AbstractInterceptor;
+import structure.agent.project.interceptor.AbstractInterceptor;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 

@@ -1,4 +1,4 @@
-package agent.project.anno;
+package structure.agent.project.anno;
 
 import java.lang.annotation.*;
 

@@ -1,6 +1,6 @@
-package agent.project;
+package structure.agent.project;
 
-import agent.project.scanner.AnnotationScanner;
+import structure.agent.project.scanner.AnnotationScanner;
 import net.sf.cglib.proxy.Callback;
 import net.sf.cglib.proxy.Enhancer;
 

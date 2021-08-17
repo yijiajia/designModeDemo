@@ -1,4 +1,4 @@
-package agent.project.interceptor;
+package structure.agent.project.interceptor;
 
 
 import java.lang.reflect.Method;

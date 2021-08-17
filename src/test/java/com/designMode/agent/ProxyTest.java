@@ -1,14 +1,14 @@
 package com.designMode.agent;
 
-import agent.DemoService;
-import agent.DemoServiceImpl;
-import agent.cglib.DemoCglibInterceptor;
-import agent.cglib.DemoCglibService;
-import agent.dynamic.DemoProxyFactory;
-import agent.project.ToolService;
-import agent.project.ToolProxyFactory;
-import agent.project.ToolProxyCallback;
-import agent.statics.DemoServiceProxy;
+import structure.agent.DemoService;
+import structure.agent.DemoServiceImpl;
+import structure.agent.cglib.DemoCglibInterceptor;
+import structure.agent.cglib.DemoCglibService;
+import structure.agent.dynamic.DemoProxyFactory;
+import structure.agent.project.ToolService;
+import structure.agent.project.ToolProxyFactory;
+import structure.agent.project.ToolProxyCallback;
+import structure.agent.statics.DemoServiceProxy;
 import net.sf.cglib.proxy.Callback;
 import org.junit.Test;
 
@@ -58,7 +58,7 @@ public class ProxyTest {
         System.out.println("\n");
 
         System.out.println("方法二：使用代理工厂获取子类代理对象");
-        DemoCglibService serviceProxy2 = (DemoCglibService) agent.cglib.DemoProxyFactory.getProxyInstance(service,cglibInterceptor);
+        DemoCglibService serviceProxy2 = (DemoCglibService) structure.agent.cglib.DemoProxyFactory.getProxyInstance(service,cglibInterceptor);
         serviceProxy2.run();
     }
 

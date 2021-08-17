@@ -1,6 +1,6 @@
-package agent.statics;
+package structure.agent.statics;
 
-import agent.DemoService;
+import structure.agent.DemoService;
 
 /**
  * 代理类，维护目标对象，执行业务逻辑 及 调用目标对象方法

@@ -1,8 +1,8 @@
-package agent.project.interceptor;
+package structure.agent.project.interceptor;
 
 
-import agent.project.anno.Order;
-import agent.project.anno.ToolAspect;
+import structure.agent.project.anno.Order;
+import structure.agent.project.anno.ToolAspect;
 
 import java.lang.reflect.Method;
 

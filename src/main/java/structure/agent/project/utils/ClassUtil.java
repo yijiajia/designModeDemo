@@ -1,4 +1,4 @@
-package agent.project.utils;
+package structure.agent.project.utils;
 
 import java.io.File;
 import java.io.IOException;

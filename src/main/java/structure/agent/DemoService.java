@@ -1,4 +1,4 @@
-package agent;
+package structure.agent;
 
 public interface DemoService {
 

@@ -1,4 +1,4 @@
-package agent.project;
+package structure.agent.project;
 
 import java.util.Arrays;
 
