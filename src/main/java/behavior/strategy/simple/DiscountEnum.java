@@ -1,4 +1,4 @@
-package behavior.strategy;
+package behavior.strategy.simple;
 
 /**
  * 优惠策略的枚举类型

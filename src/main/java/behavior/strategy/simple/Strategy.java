@@ -1,4 +1,4 @@
-package behavior.strategy;
+package behavior.strategy.simple;
 
 /**
  * 策略接口

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<filter>
+    <filter-name>logFilter</filter-name>
+    <filter-class>behavior.chain.LogFilter</filter-class>
+</filter>
+<filter-mapping>
+    <filter-name>logFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+

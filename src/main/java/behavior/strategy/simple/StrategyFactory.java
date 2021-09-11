@@ -1,4 +1,4 @@
-package behavior.strategy;
+package behavior.strategy.simple;
 
 import java.util.HashMap;
 import java.util.Map;

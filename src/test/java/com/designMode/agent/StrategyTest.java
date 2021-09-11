@@ -1,9 +1,9 @@
 package com.designMode.agent;
 
-import behavior.strategy.DiscountEnum;
-import behavior.strategy.DiscountStrategy;
-import behavior.strategy.Strategy;
-import behavior.strategy.StrategyFactory;
+import behavior.strategy.simple.DiscountEnum;
+import behavior.strategy.simple.DiscountStrategy;
+import behavior.strategy.simple.Strategy;
+import behavior.strategy.simple.StrategyFactory;
 import org.junit.Test;
 
 public class StrategyTest {

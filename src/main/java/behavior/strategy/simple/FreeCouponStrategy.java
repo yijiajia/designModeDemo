@@ -1,4 +1,4 @@
-package behavior.strategy;
+package behavior.strategy.simple;
 
 public class FreeCouponStrategy implements Strategy {
     @Override
